@@ -14,8 +14,8 @@ const data = [
   { number: 5000, text: "Github Stars" },
 ];
 
-const Acomplishments = () => (
-  <Section>
+const Acomplishments = () => ({
+  /*<Section>
     <SectionTitle>Personal Achievements</SectionTitle>
     <Boxes>
       {data.map((card, index) => (
@@ -26,7 +26,7 @@ const Acomplishments = () => (
       ))}
     </Boxes>
     <SectionDivider />
-  </Section>
-);
+      </Section>*/
+});
 
 export default Acomplishments;
